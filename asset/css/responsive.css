@@ -1,0 +1,104 @@
+/* PC low resolution > */
+@media (min-width: 1023px) {
+    .hide-on-pc{
+        display: none;
+    }
+}
+
+/* tablet and pc */
+
+@media (min-width: 740px){
+
+}
+/* mobile and tablet */
+@media (max-width: 1023px){
+    .hide-mobile-tablet{
+        display: none;
+    }
+    .app{
+        padding: 0 8px;
+    }
+    .header {
+        padding: 16px 8px;
+    }
+    .center-text{
+        text-align: center;
+    }
+    .header__nav-info{
+        display: block;
+    }
+    .header__nav-info-item--dot::after{
+        display: none;
+    }
+    .header__nav-info-item-link{
+        display: block;
+        padding-bottom: 12px;
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .header__nav-info-exchange{
+        padding: 12px;
+        width: 100%;
+    }
+    .header__nav-info-arrow{
+        margin-left: auto;
+    }
+    .header__nav-exchange-info{
+        flex-direction: column;
+        align-items: flex-start;
+        border: unset;
+        box-shadow: unset;
+        left: 0;
+        right: 0;
+        min-width: 100%;
+    }
+    .header__nav-exchange-info::before{
+        display: none;
+    }
+    .header__nav-exchange-info::after{
+        display: none;
+    }
+}
+/* tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+
+}
+/* mobile */
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    
+    .header__nav-search{
+        min-width: unset;
+    }
+    .header__bar-option-icon{
+        margin-right: 12px;
+    }
+    .container__booking-instruction-heading{
+        font-size: 2rem;
+        margin-top: 24px;
+    }
+    .container__greeting-body {
+        line-height: 2rem;
+    }
+    .container__section-body{
+        line-height: 2.4rem;
+    }
+    .footer__call-heading,
+    .footer__messenger-heading{
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    .footer__call-body-link,
+    .footer__messenger-body-link{
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+    }
+    .footer-section-follow-app-link {
+        font-size: 3.8rem;
+        margin-right: 20px;
+    }
+    
+
+}

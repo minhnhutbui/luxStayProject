@@ -1,0 +1,49 @@
+:root {
+    --white-color: #fff;
+    --text-heading-color: #333;
+    --text-body-color:#555555;
+    --footer-text-color: #464546;
+    --primary-color: #F65E39;
+    --header-nav-search: 46px;
+
+    --header-height: 80px;
+}
+
+*{
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6rem;
+}
+.vertical-center {
+    align-items: center;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+.ml-0-2 {
+    margin-left: 20%;
+}
+@keyframes FadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@keyframes ExchangeFadeIn {
+    from{
+        opacity: 0;
+        top: calc(100% + 50px);
+    }
+    to{
+        opacity: 1;
+        top: calc(100% + 14px);
+    }
+}
